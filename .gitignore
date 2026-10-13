@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+*.sqlite
+*.db
+
+# Data & Artifacts
+backend/artifacts/*.joblib
+backend/artifacts/*.json
+!backend/artifacts/.gitkeep
+
+# Node / React
+node_modules/
+dist/
+.output/
+.cache/
+.DS_Store
+
+# Environment
+.env
+.env.local
